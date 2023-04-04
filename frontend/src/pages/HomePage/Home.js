@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from "react";
+import "./Home.css";
+import CustomNavbar from "../../components/Navigation/Navigation";
 const Home = () => {
   return (
-    <div>Home Page</div>
-  )
-}
+    <CustomNavbar/>
+  );
+};
 
-export default Home; 
+export default Home;
