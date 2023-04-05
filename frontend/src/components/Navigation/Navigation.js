@@ -2,7 +2,7 @@ import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaShoppingCart, FaUserCircle, FaEnvelope } from 'react-icons/fa';
 
-function CustomNavbar() {
+function Navigation() {
   return (
     <Navbar bg="dark" expand="lg">
       <Container>
@@ -33,4 +33,4 @@ function CustomNavbar() {
   );
 }
 
-export default CustomNavbar;
+export default Navigation;
