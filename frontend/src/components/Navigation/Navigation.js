@@ -21,7 +21,7 @@ function Navigation() {
               title={<FaUserCircle size={20} />}
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="#/loginSignup">Login/Register</NavDropdown.Item>
+              <NavDropdown.Item href="#/login">Login/Register</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#">
               <FaEnvelope size={20} />

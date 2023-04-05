@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import "./Login.css";
 import React from "react";
 import {
@@ -7,8 +8,10 @@ import {
   MDBCol,
   MDBInput,
 } from "mdb-react-ui-kit";
+import { Button } from "react-bootstrap";
 
 function LoginSignUp() {
+  const navigate = useNavigate(); 
   return (
     <MDBContainer className="my-5 gradient-form">
       <MDBRow>
@@ -47,9 +50,9 @@ function LoginSignUp() {
 
             <div className="d-flex flex-row align-items-center justify-content-center pb-4 mb-4">
               <p className="mb-0">Don't have an account?</p>
-              <MDBBtn outline className="mx-2" color="danger">
-                Danger
-              </MDBBtn>
+              <Button className="mx-2 text-danger" style={{borderColor:"red"}}  onClick={()=>{navigate("/register")}}>
+                Register
+              </Button>
             </div>
           </div>
         </MDBCol>
