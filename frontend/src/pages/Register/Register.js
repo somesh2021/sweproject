@@ -16,7 +16,6 @@ import Navigation from "../../components/Navigation/Navigation";
 function Register() {
   return (
     <>
-      <Navigation />
       <MDBContainer fluid className="registerbody">
         <MDBRow className="justify-content-center align-items-center m-5">
           <MDBCard>
