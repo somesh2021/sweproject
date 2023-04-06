@@ -16,7 +16,6 @@ import Navigation from "./components/Navigation/Navigation";
 function App() {
   return (
     <>
-      <Navigation />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
