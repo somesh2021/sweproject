@@ -38,14 +38,14 @@ function Product() {
                   <div class="collapse show" id="collapse_aside1">
                   <div class="card-body">
                   <ul class="list-menu">
-                      <li><a href="#">Electronics </a></li>
-                      <li><a href="#">Accessories  </a></li>
-                      <li><a href="#">Home items </a></li>
-                      <li><a href="#">Men's clothing </a></li>
-                      <li><a href="#">Interior items </a></li>
-                      <li><a href="#">Magazines </a></li>
-                      <li><a href="#">Category name </a></li>
-                      <li><a href="#">Home items </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Electronics </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Accessories  </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Home items </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Men's clothing </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Interior items </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Magazines </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Category name </a></li>
+                      <li><a href="#" style={{textDecoration:"none", color:"red"}}>Home items </a></li>
                   </ul>
                   </div> 
                   </div> 
@@ -187,7 +187,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="assets/images/items/10.webp"/> 
+                      <img src={require("../../assets/images/items/12.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
@@ -205,7 +205,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="assets/images/items/11.webp"/> 
+                      <img src={require("../../assets/images/items/11.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
@@ -222,7 +222,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="assets/images/items/12.webp"/> 
+                      <img src={require("../../assets/images/items/12.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
@@ -239,7 +239,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="assets/images/items/9.webp"/> 
+                      <img src={require("../../assets/images/items/9.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
@@ -256,7 +256,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="assets/images/items/14.webp"/> 
+                      <img src={require("../../assets/images/items/14.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
@@ -273,7 +273,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="assets/images/items/10.webp"/> 
+                      <img src={require("../../assets/images/items/10.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
@@ -290,7 +290,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="assets/images/items/11.webp"/> 
+                      <img src={require("../../assets/images/items/11.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
@@ -307,7 +307,7 @@ function Product() {
                   <div class="col-lg-4 col-md-6 col-sm-6">
                       <figure class="card card-product-grid">
                       <div class="img-wrap"> 
-                      <img src="src/assets/images/items/12.webp"/> 
+                      <img src={require("../../assets/images/items/12.webp")}/> 
                       </div>
                       <figcaption class="info-wrap border-top">
                       <div class="price-wrap">
