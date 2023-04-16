@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Product() {
+function Shop() {
   return (
       <div className="home-section">
         
@@ -368,4 +368,4 @@ function Product() {
      
   );
 }
-export default Product;
+export default Shop;

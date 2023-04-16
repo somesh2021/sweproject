@@ -11,8 +11,8 @@ import Checkout from "./pages/CheckoutPage/Checkout";
 import AdminPanel from "./pages/AdminPanelPage/AdminPanel";
 import CustomerService from "./pages/CustomerServicePage/CustomerService";
 import CompanyRepPortal from "./pages/CompanyRepPortalPage/CompanyRepPortal";
-import Product from "./pages/ProductPage/Product";
 import Navigation from "./components/Navigation/Navigation";
+import Shop from "./pages/Shop/Shop";
 function App() {
   return (
     <>
@@ -27,7 +27,7 @@ function App() {
         <Route path="/adminPanel" element={<AdminPanel />} />
         <Route path="/customerService" element={<CustomerService />} />
         <Route path="/companyRepPortal" element={<CompanyRepPortal />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/products" element={<Shop />} />
         <Route path="/register" element={<Register />} />
       </Routes>
     </>
